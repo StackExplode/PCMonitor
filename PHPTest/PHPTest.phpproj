@@ -1,0 +1,23 @@
+<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>7d1bb530-f282-456f-aec2-bdd271baaa71</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnvName>Custom</EnvName>
+    <RuntimeVersion>7.4</RuntimeVersion>
+    <RootNamespace>PHPTest</RootNamespace>
+    <WebRoot />
+    <SaveServerSettingsInUserFile>false</SaveServerSettingsInUserFile>
+    <PHPDevHostName>localhost</PHPDevHostName>
+    <PHPDevAutoPort>true</PHPDevAutoPort>
+    <PHPDevRouting />
+    <CustomServerUrl>http://localhost:6667</CustomServerUrl>
+    <CustomXdebugPort>9000</CustomXdebugPort>
+    <DebugMappingMethod>Automatic</DebugMappingMethod>
+    <DebugPathMapping />
+    <DBGpProxyEnabled>false</DBGpProxyEnabled>
+    <DBGpProxyHost>localhost</DBGpProxyHost>
+    <DBGpProxyPort>9000</DBGpProxyPort>
+    <IdeKey>jdebug</IdeKey>
+  </PropertyGroup>
+</Project>
