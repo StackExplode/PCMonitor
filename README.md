@@ -1,6 +1,6 @@
 # PCMonitor
 A PC state monitor with remote boot and program execution. Work in progress
-It is under GPLv3 licence.
+All codes are under GPLv3 licence.
 
 ## Components
 
@@ -12,3 +12,4 @@ It is under GPLv3 licence.
 * Other libs like open hardware monitor code and some shared codes like UDP server code etc.
 
 ## Everything is work in progress now!
+

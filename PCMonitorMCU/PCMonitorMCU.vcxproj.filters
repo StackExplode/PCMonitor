@@ -2,218 +2,218 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source files">
-      <UniqueIdentifier>{7ea2daf8-4109-4a9e-a42f-e838a631a948}</UniqueIdentifier>
+      <UniqueIdentifier>{1d8aa97c-5884-49d7-aa2a-5454d1a77492}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Header files">
-      <UniqueIdentifier>{697d4129-f8db-4bcf-9f08-6b5307e9e0ed}</UniqueIdentifier>
+      <UniqueIdentifier>{7043f09e-cd9b-49c1-9b67-372bda5682ce}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Resource files">
-      <UniqueIdentifier>{929a3523-2925-4194-82bf-95a8be9af391}</UniqueIdentifier>
+      <UniqueIdentifier>{f34cf2f1-98ca-4752-9aaf-912cdfe8ae78}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
     <Filter Include="Source files\USER">
-      <UniqueIdentifier>{55142a54-d608-4bd9-9c9d-c9799e7a655b}</UniqueIdentifier>
+      <UniqueIdentifier>{7821a30a-5a53-49dc-bbf4-a94c7c92a16d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\SYSTEM">
-      <UniqueIdentifier>{596f59d8-9038-4827-869c-2e27b253f4b1}</UniqueIdentifier>
+      <UniqueIdentifier>{7291cb79-0e5f-4721-9e8a-2bc27d96c2a9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\CORE">
-      <UniqueIdentifier>{146f8a04-137d-47af-83b9-b91f60a8a78b}</UniqueIdentifier>
+      <UniqueIdentifier>{1fe66e0a-5bcb-428e-abc8-25b69cae9234}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\FWLIB">
-      <UniqueIdentifier>{e4df0b15-61f2-4ac4-927e-a79b73e122c3}</UniqueIdentifier>
+      <UniqueIdentifier>{7ec3cc31-0f32-41b9-a1c6-d49aa4db5b37}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\README">
-      <UniqueIdentifier>{97ea63e8-fe75-44ea-97e0-b833589a49c8}</UniqueIdentifier>
+      <UniqueIdentifier>{7a78a426-0095-42c3-bac2-6e0e1c910131}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\Hardware">
-      <UniqueIdentifier>{171a3bdb-f05d-4de4-8ebe-cb2dcd421ab4}</UniqueIdentifier>
+      <UniqueIdentifier>{97186ed6-a640-440b-b0c4-dbef00c58d95}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source files\Device-specific files">
-      <UniqueIdentifier>{3f381038-b4ad-4e0f-ae3b-a718b315a716}</UniqueIdentifier>
+      <UniqueIdentifier>{66380b48-5af4-4a85-b29d-e5f0879c2a0e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\USER">
-      <UniqueIdentifier>{4d7e2e0b-e95e-4fb8-a633-8515de59c4a7}</UniqueIdentifier>
+      <UniqueIdentifier>{eae136c0-8e96-4994-b0a6-cb0f47da155b}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\SYSTEM">
-      <UniqueIdentifier>{cf895b6b-f073-49cd-b54f-265d7116b1dc}</UniqueIdentifier>
+      <UniqueIdentifier>{fbb19195-b68a-4be2-9719-09fff8cd1530}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\CORE">
-      <UniqueIdentifier>{5785fd31-001a-483c-8e0e-15801d2787f4}</UniqueIdentifier>
+      <UniqueIdentifier>{bde47ccb-021d-49ae-9ddf-503db3083800}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\FWLIB">
-      <UniqueIdentifier>{f77e6645-ff1d-48a3-bbab-93e694f42114}</UniqueIdentifier>
+      <UniqueIdentifier>{dfa8b85e-3a52-4c1a-b691-b52f2be703f6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\README">
-      <UniqueIdentifier>{ec929df7-6aa7-45f6-9ad0-3f14841c9c2d}</UniqueIdentifier>
+      <UniqueIdentifier>{1ef49603-2f87-4a05-bf9c-b63cf329b847}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Hardware">
-      <UniqueIdentifier>{1fc96bcd-d589-4323-9bfc-6298911db582}</UniqueIdentifier>
+      <UniqueIdentifier>{325b323c-d339-4c99-9b4d-cdc853f04cf9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Device-specific files">
-      <UniqueIdentifier>{31491a74-f144-4448-8c00-4baba745f9fe}</UniqueIdentifier>
+      <UniqueIdentifier>{749d12ca-3884-4258-af05-d231b807e659}</UniqueIdentifier>
     </Filter>
     <Filter Include="VisualGDB settings">
-      <UniqueIdentifier>{8ce57621-799e-4366-82bd-5c5e5532d6bf}</UniqueIdentifier>
+      <UniqueIdentifier>{4bf31b1f-d4a4-4364-ba04-80dcf92bff36}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\USER\main.c">
+    <ClCompile Include="..\STM32OrgKeilProj\USER\main.c">
       <Filter>Source files\USER</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\USER\stm32f10x_it.c">
+    <ClCompile Include="..\STM32OrgKeilProj\USER\stm32f10x_it.c">
       <Filter>Source files\USER</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\USER\system_stm32f10x.c">
+    <ClCompile Include="..\STM32OrgKeilProj\USER\system_stm32f10x.c">
       <Filter>Source files\USER</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\USER\lcdui.c">
+    <ClCompile Include="..\STM32OrgKeilProj\USER\lcdui.c">
       <Filter>Source files\USER</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\SYSTEM\delay\delay.c">
+    <ClCompile Include="..\STM32OrgKeilProj\SYSTEM\delay\delay.c">
       <Filter>Source files\SYSTEM</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\SYSTEM\sys\sys.c">
+    <ClCompile Include="..\STM32OrgKeilProj\SYSTEM\sys\sys.c">
       <Filter>Source files\SYSTEM</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\SYSTEM\usart\usart.c">
+    <ClCompile Include="..\STM32OrgKeilProj\SYSTEM\usart\usart.c">
       <Filter>Source files\SYSTEM</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\CORE\core_cm3.c">
+    <ClCompile Include="..\STM32OrgKeilProj\CORE\core_cm3.c">
       <Filter>Source files\CORE</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\CORE\startup_stm32f10x_hd.S">
+    <ClCompile Include="..\STM32OrgKeilProj\CORE\startup_stm32f10x_hd.S">
       <Filter>Source files\CORE</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\misc.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\misc.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_adc.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_adc.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_bkp.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_bkp.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_can.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_can.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_cec.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_cec.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_crc.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_crc.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_dac.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_dac.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_dma.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_dma.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_exti.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_exti.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_flash.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_flash.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_fsmc.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_fsmc.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_gpio.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_gpio.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_i2c.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_i2c.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_iwdg.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_iwdg.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_pwr.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_pwr.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_rcc.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_rcc.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_rtc.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_rtc.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_sdio.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_sdio.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_spi.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_spi.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_tim.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_tim.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_usart.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_usart.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_wwdg.c">
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_wwdg.c">
       <Filter>Source files\FWLIB</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\lcd.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\lcd.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\SPI.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\SPI.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf\hw_config.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Conf\hw_config.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf\usb_desc.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Conf\usb_desc.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf\usb_endp.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Conf\usb_endp.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf\usb_istr.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Conf\usb_istr.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf\usb_prop.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Conf\usb_prop.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf\usb_pwr.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Conf\usb_pwr.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\src\usb_core.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Lib\src\usb_core.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\src\usb_init.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Lib\src\usb_init.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\src\usb_int.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Lib\src\usb_int.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\src\usb_mem.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Lib\src\usb_mem.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\src\usb_regs.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Lib\src\usb_regs.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\src\usb_sil.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Lib\src\usb_sil.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\JBUS.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\JBUS.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\tim3.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\tim3.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\mygpio.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\mygpio.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\tim4_beep.c">
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\tim4_beep.c">
       <Filter>Source files\Hardware</Filter>
     </ClCompile>
     <None Include="mcu.props">
       <Filter>Source files\Device-specific files</Filter>
     </None>
-    <None Include="..\..\..\..\STM32\ComputerMonitor\Template\README.TXT">
+    <None Include="..\STM32OrgKeilProj\README.TXT">
       <Filter>Header files\README</Filter>
     </None>
     <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h">
@@ -228,8 +228,5 @@
     <None Include="MCU.xml">
       <Filter>VisualGDB settings</Filter>
     </None>
-    <ClInclude Include="RTE/RTE_Components.h">
-      <Filter>Header files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

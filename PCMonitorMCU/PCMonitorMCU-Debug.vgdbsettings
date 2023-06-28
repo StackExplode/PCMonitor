@@ -4,8 +4,7 @@
   <Project xsi:type="com.visualgdb.project.embedded">
     <CustomSourceDirectories>
       <Directories />
-      <PathStyle>MinGWUnixSlash</PathStyle>
-      <LocalDirForAbsolutePaths>$(ToolchainDir)</LocalDirForAbsolutePaths>
+      <PathStyle>Unknown</PathStyle>
     </CustomSourceDirectories>
     <AutoProgramSPIFFSPartition>true</AutoProgramSPIFFSPartition>
     <MainSourceDirectory>$(ProjectDir)</MainSourceDirectory>
@@ -23,11 +22,7 @@
       </Version>
     </ToolchainID>
     <ProjectFile>PCMonitorMCU.vcxproj</ProjectFile>
-    <RemoteBuildEnvironment>
-      <Records />
-      <EnvironmentSetupFiles />
-    </RemoteBuildEnvironment>
-    <ParallelJobCount>1</ParallelJobCount>
+    <ParallelJobCount>0</ParallelJobCount>
     <SuppressDirectoryChangeMessages>true</SuppressDirectoryChangeMessages>
     <BuildAsRoot>false</BuildAsRoot>
   </Build>
@@ -103,7 +98,7 @@
     <DebugMethod>
       <ID>jlink-jtag</ID>
       <InterfaceID>com.sysprogs.debug.jlink.jlinksw</InterfaceID>
-      <InterfaceSerialNumber>5&amp;262E236C&amp;0&amp;4</InterfaceSerialNumber>
+      <InterfaceSerialNumber>5&amp;262E236C&amp;0&amp;3</InterfaceSerialNumber>
       <Configuration xsi:type="com.visualgdb.edp.segger.settings">
         <CommandLine>-select USB -device $$SYS:MCU_ID$$ -speed auto -if SWD</CommandLine>
         <ProgramMode>Enabled</ProgramMode>
@@ -111,6 +106,7 @@
           <string>target remote :$$SYS:GDB_PORT$$</string>
           <string>mon reset</string>
           <string>load</string>
+          <string>mon reset</string>
         </StartupCommands>
         <UseUnreliableLiveMemoryEngine>false</UseUnreliableLiveMemoryEngine>
       </Configuration>

@@ -12,7 +12,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{DD62B8E8-0229-44E6-B877-A908E22E0362}</ProjectGuid>
+    <ProjectGuid>{DC9C8B79-6922-473D-9DB6-B3CE94B66469}</ProjectGuid>
     <BSP_ID>KEIL:Keil/STM32F1xx_DFP</BSP_ID>
     <BSP_VERSION>2.3.0</BSP_VERSION>
     <InPlaceBSPSubdir />
@@ -45,22 +45,21 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
     <ClCompile>
       <CLanguageStandard>C99</CLanguageStandard>
-      <AdditionalIncludeDirectories>..\..\..\..\STM32\ComputerMonitor\Template\USER;..\..\..\..\STM32\ComputerMonitor\Template\CORE;..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\inc;..\..\..\..\STM32\ComputerMonitor\Template\SYSTEM\delay;..\..\..\..\STM32\ComputerMonitor\Template\SYSTEM\sys;..\..\..\..\STM32\ComputerMonitor\Template\SYSTEM\usart;..\..\..\..\STM32\ComputerMonitor\Template\Hardware;..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf;..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\inc;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\STM32OrgKeilProj\USER;..\STM32OrgKeilProj\CORE;..\STM32OrgKeilProj\STM32F10x_FWLib\inc;..\STM32OrgKeilProj\SYSTEM\delay;..\STM32OrgKeilProj\SYSTEM\sys;..\STM32OrgKeilProj\SYSTEM\usart;..\STM32OrgKeilProj\Hardware;..\STM32OrgKeilProj\Hardware\USB\Conf;..\STM32OrgKeilProj\Hardware\USB\Lib\inc;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>STM32F10X_MD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CPPLanguageStandard />
     </ClCompile>
     <Link>
-      <AdditionalLinkerInputs>;%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
       <AdditionalOptions />
-      <LinkerScript />
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
     <ClCompile>
       <CLanguageStandard>
       </CLanguageStandard>
-      <AdditionalIncludeDirectories>..\..\..\..\STM32\ComputerMonitor\Template\USER;..\..\..\..\STM32\ComputerMonitor\Template\CORE;..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\inc;..\..\..\..\STM32\ComputerMonitor\Template\SYSTEM\delay;..\..\..\..\STM32\ComputerMonitor\Template\SYSTEM\sys;..\..\..\..\STM32\ComputerMonitor\Template\SYSTEM\usart;..\..\..\..\STM32\ComputerMonitor\Template\Hardware;..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf;..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\inc;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\STM32OrgKeilProj\USER;..\STM32OrgKeilProj\CORE;..\STM32OrgKeilProj\STM32F10x_FWLib\inc;..\STM32OrgKeilProj\SYSTEM\delay;..\STM32OrgKeilProj\SYSTEM\sys;..\STM32OrgKeilProj\SYSTEM\usart;..\STM32OrgKeilProj\Hardware;..\STM32OrgKeilProj\Hardware\USB\Conf;..\STM32OrgKeilProj\Hardware\USB\Lib\inc;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>STM32F10X_MD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CPPLanguageStandard />
@@ -76,62 +75,61 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\USER\main.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\USER\stm32f10x_it.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\USER\system_stm32f10x.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\USER\lcdui.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\SYSTEM\delay\delay.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\SYSTEM\sys\sys.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\SYSTEM\usart\usart.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\CORE\core_cm3.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\CORE\startup_stm32f10x_hd.S" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\misc.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_adc.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_bkp.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_can.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_cec.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_crc.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_dac.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_dma.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_exti.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_flash.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_fsmc.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_gpio.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_i2c.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_iwdg.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_pwr.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_rcc.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_rtc.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_sdio.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_spi.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_tim.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_usart.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\STM32F10x_FWLib\src\stm32f10x_wwdg.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\lcd.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\SPI.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf\hw_config.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf\usb_desc.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf\usb_endp.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf\usb_istr.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf\usb_prop.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Conf\usb_pwr.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\src\usb_core.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\src\usb_init.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\src\usb_int.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\src\usb_mem.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\src\usb_regs.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\USB\Lib\src\usb_sil.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\JBUS.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\tim3.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\mygpio.c" />
-    <ClCompile Include="..\..\..\..\STM32\ComputerMonitor\Template\Hardware\tim4_beep.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\USER\main.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\USER\stm32f10x_it.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\USER\system_stm32f10x.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\USER\lcdui.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\SYSTEM\delay\delay.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\SYSTEM\sys\sys.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\SYSTEM\usart\usart.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\CORE\core_cm3.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\CORE\startup_stm32f10x_hd.S" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\misc.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_adc.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_bkp.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_can.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_cec.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_crc.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_dac.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_dma.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_exti.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_flash.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_fsmc.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_gpio.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_i2c.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_iwdg.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_pwr.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_rcc.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_rtc.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_sdio.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_spi.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_tim.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_usart.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\STM32F10x_FWLib\src\stm32f10x_wwdg.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\lcd.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\SPI.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Conf\hw_config.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Conf\usb_desc.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Conf\usb_endp.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Conf\usb_istr.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Conf\usb_prop.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Conf\usb_pwr.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Lib\src\usb_core.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Lib\src\usb_init.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Lib\src\usb_int.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Lib\src\usb_mem.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Lib\src\usb_regs.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\USB\Lib\src\usb_sil.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\JBUS.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\tim3.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\mygpio.c" />
+    <ClCompile Include="..\STM32OrgKeilProj\Hardware\tim4_beep.c" />
     <None Include="mcu.props" />
-    <None Include="..\..\..\..\STM32\ComputerMonitor\Template\README.TXT" />
+    <None Include="..\STM32OrgKeilProj\README.TXT" />
     <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h" />
     <None Include="PCMonitorMCU-Debug.vgdbsettings" />
     <None Include="PCMonitorMCU-Release.vgdbsettings" />
     <None Include="MCU.xml" />
-    <ClInclude Include="RTE/RTE_Components.h" />
   </ItemGroup>
 </Project>

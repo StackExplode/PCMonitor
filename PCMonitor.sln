@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PCMonitorMCU", "PCMonitorMCU\PCMonitorMCU.vcxproj", "{DD62B8E8-0229-44E6-B877-A908E22E0362}"
-EndProject
 Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "PHPTest", "PHPTest\PHPTest.phpproj", "{7D1BB530-F282-456F-AEC2-BDD271BAAA71}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{E23ED183-2F81-4737-B145-3D65AB0A764B}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PCMonitorMCU", "PCMonitorMCU\PCMonitorMCU.vcxproj", "{DC9C8B79-6922-473D-9DB6-B3CE94B66469}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,14 +20,6 @@ Global
 		Release|VisualGDB = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DD62B8E8-0229-44E6-B877-A908E22E0362}.Debug|Any CPU.ActiveCfg = Debug|VisualGDB
-		{DD62B8E8-0229-44E6-B877-A908E22E0362}.Debug|Any CPU.Build.0 = Debug|VisualGDB
-		{DD62B8E8-0229-44E6-B877-A908E22E0362}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
-		{DD62B8E8-0229-44E6-B877-A908E22E0362}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
-		{DD62B8E8-0229-44E6-B877-A908E22E0362}.Release|Any CPU.ActiveCfg = Release|VisualGDB
-		{DD62B8E8-0229-44E6-B877-A908E22E0362}.Release|Any CPU.Build.0 = Release|VisualGDB
-		{DD62B8E8-0229-44E6-B877-A908E22E0362}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
-		{DD62B8E8-0229-44E6-B877-A908E22E0362}.Release|VisualGDB.Build.0 = Release|VisualGDB
 		{7D1BB530-F282-456F-AEC2-BDD271BAAA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7D1BB530-F282-456F-AEC2-BDD271BAAA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D1BB530-F282-456F-AEC2-BDD271BAAA71}.Debug|VisualGDB.ActiveCfg = Debug|Any CPU
@@ -36,6 +28,14 @@ Global
 		{7D1BB530-F282-456F-AEC2-BDD271BAAA71}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7D1BB530-F282-456F-AEC2-BDD271BAAA71}.Release|VisualGDB.ActiveCfg = Release|Any CPU
 		{7D1BB530-F282-456F-AEC2-BDD271BAAA71}.Release|VisualGDB.Build.0 = Release|Any CPU
+		{DC9C8B79-6922-473D-9DB6-B3CE94B66469}.Debug|Any CPU.ActiveCfg = Debug|VisualGDB
+		{DC9C8B79-6922-473D-9DB6-B3CE94B66469}.Debug|Any CPU.Build.0 = Debug|VisualGDB
+		{DC9C8B79-6922-473D-9DB6-B3CE94B66469}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{DC9C8B79-6922-473D-9DB6-B3CE94B66469}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{DC9C8B79-6922-473D-9DB6-B3CE94B66469}.Release|Any CPU.ActiveCfg = Release|VisualGDB
+		{DC9C8B79-6922-473D-9DB6-B3CE94B66469}.Release|Any CPU.Build.0 = Release|VisualGDB
+		{DC9C8B79-6922-473D-9DB6-B3CE94B66469}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{DC9C8B79-6922-473D-9DB6-B3CE94B66469}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
