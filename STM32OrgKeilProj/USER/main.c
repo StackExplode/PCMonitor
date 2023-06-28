@@ -120,7 +120,7 @@ int main(void)
 	USB_Port_Set(0); 	//USB先断开
 	delay_ms(200);
 	USB_Port_Set(1);	//USB再次连接
-	USB_Interrupts_Config();  
+	USB_Interrupts_Config();
 	Set_USBClock();     
 	USB_Init();
 	//delay_ms(1200);
