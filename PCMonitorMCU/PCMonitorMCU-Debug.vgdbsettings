@@ -98,7 +98,7 @@
     <DebugMethod>
       <ID>jlink-jtag</ID>
       <InterfaceID>com.sysprogs.debug.jlink.jlinksw</InterfaceID>
-      <InterfaceSerialNumber>5&amp;262E236C&amp;0&amp;3</InterfaceSerialNumber>
+      <InterfaceSerialNumber>5&amp;262E236C&amp;0&amp;4</InterfaceSerialNumber>
       <Configuration xsi:type="com.visualgdb.edp.segger.settings">
         <CommandLine>-select USB -device $$SYS:MCU_ID$$ -speed auto -if SWD</CommandLine>
         <ProgramMode>Enabled</ProgramMode>

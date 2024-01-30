@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "MyBananapi": {
+      "commandName": "Executable",
+      "commandLineArgs": "deploy MyBananapi --configuration $(ConfigurationName) --auth-type UserSecrets ",
+      "executablePath": "dotnet-ssh",
+      "workingDirectory": "D:\\PrivateDocuments\\PCMonitor\\PCMonitor\\BananaBoard",
+      "launchBrowser": false,
+      "nativeDebugging": false,
+      "externalUrlConfiguration": false,
+      "use64Bit": false
+    }
+  }
+}

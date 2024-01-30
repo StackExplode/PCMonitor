@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "MyBananapi",
+    "Settings": {
+      "DestinationPath": "/root/pcmonitor",
+      "Host": "192.168.3.112",
+      "AssemblyName": "BananaBoard",
+      "Framework": "net6.0",
+      "Display": ":0.0",
+      "RunAfterDeployment": false,
+      "Architecture": "LinuxArm32"
+    }
+  }
+]

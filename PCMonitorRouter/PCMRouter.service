@@ -1,0 +1,20 @@
+[Unit]
+Description=Jennings PC Monitor router service
+
+[Service]
+WorkingDirectory=/root/PCMRouter/
+Restart=always
+# restart service after 10 seconds if dotnet service crashes
+RestartSec=30
+SyslogIdentifier=PCMRouter_Log
+User=root
+Type=forking
+ExecStart=/usr/bin/screen -d -m -S PCMRSrv bash -c 'cd /root/PCMRouter && /root/.dotnet/dotnet ./PCMonitorRouter.dll'
+#ExecStart=/root/.dotnet/dotnet /root/PCMRouter/PCMonitorRouter.dll
+#PIDFile=/run/pcmrouter.pid
+ExecStop=/usr/bin/kill `screen -S PCMRSrv -Q echo '$PID'` 2> /dev/null
+#ExecStop=/bin/kill -HUP $MAINPID
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target

@@ -12,6 +12,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PCMonitorMCU", "PCMonitorMCU\PCMonitorMCU.vcxproj", "{DC9C8B79-6922-473D-9DB6-B3CE94B66469}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCMonitorRouter", "PCMonitorRouter\PCMonitorRouter.csproj", "{BD52F87E-B36D-4F2D-9AD2-64DBF396D123}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PCMonitorCommon", "PCMonitorCommon\PCMonitorCommon.csproj", "{35F967B7-A343-4F62-9858-E359DE434211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCMonitorTester", "PCMonitorTester\PCMonitorTester.csproj", "{52BC5D59-91EF-456D-933D-D026966E7DF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JHMSrv", "JHMSrv\JHMSrv.csproj", "{6900C1A3-1290-404D-8F24-8872D5A76E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BananaBoard", "BananaBoard\BananaBoard.csproj", "{6C4E2751-65FC-4241-A0B2-D44447BEAC3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +46,46 @@ Global
 		{DC9C8B79-6922-473D-9DB6-B3CE94B66469}.Release|Any CPU.Build.0 = Release|VisualGDB
 		{DC9C8B79-6922-473D-9DB6-B3CE94B66469}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{DC9C8B79-6922-473D-9DB6-B3CE94B66469}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{BD52F87E-B36D-4F2D-9AD2-64DBF396D123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD52F87E-B36D-4F2D-9AD2-64DBF396D123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD52F87E-B36D-4F2D-9AD2-64DBF396D123}.Debug|VisualGDB.ActiveCfg = Debug|Any CPU
+		{BD52F87E-B36D-4F2D-9AD2-64DBF396D123}.Debug|VisualGDB.Build.0 = Debug|Any CPU
+		{BD52F87E-B36D-4F2D-9AD2-64DBF396D123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD52F87E-B36D-4F2D-9AD2-64DBF396D123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD52F87E-B36D-4F2D-9AD2-64DBF396D123}.Release|VisualGDB.ActiveCfg = Release|Any CPU
+		{BD52F87E-B36D-4F2D-9AD2-64DBF396D123}.Release|VisualGDB.Build.0 = Release|Any CPU
+		{35F967B7-A343-4F62-9858-E359DE434211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F967B7-A343-4F62-9858-E359DE434211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F967B7-A343-4F62-9858-E359DE434211}.Debug|VisualGDB.ActiveCfg = Debug|Any CPU
+		{35F967B7-A343-4F62-9858-E359DE434211}.Debug|VisualGDB.Build.0 = Debug|Any CPU
+		{35F967B7-A343-4F62-9858-E359DE434211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F967B7-A343-4F62-9858-E359DE434211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F967B7-A343-4F62-9858-E359DE434211}.Release|VisualGDB.ActiveCfg = Release|Any CPU
+		{35F967B7-A343-4F62-9858-E359DE434211}.Release|VisualGDB.Build.0 = Release|Any CPU
+		{52BC5D59-91EF-456D-933D-D026966E7DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BC5D59-91EF-456D-933D-D026966E7DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BC5D59-91EF-456D-933D-D026966E7DF4}.Debug|VisualGDB.ActiveCfg = Debug|Any CPU
+		{52BC5D59-91EF-456D-933D-D026966E7DF4}.Debug|VisualGDB.Build.0 = Debug|Any CPU
+		{52BC5D59-91EF-456D-933D-D026966E7DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BC5D59-91EF-456D-933D-D026966E7DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BC5D59-91EF-456D-933D-D026966E7DF4}.Release|VisualGDB.ActiveCfg = Release|Any CPU
+		{52BC5D59-91EF-456D-933D-D026966E7DF4}.Release|VisualGDB.Build.0 = Release|Any CPU
+		{6900C1A3-1290-404D-8F24-8872D5A76E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6900C1A3-1290-404D-8F24-8872D5A76E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6900C1A3-1290-404D-8F24-8872D5A76E46}.Debug|VisualGDB.ActiveCfg = Debug|Any CPU
+		{6900C1A3-1290-404D-8F24-8872D5A76E46}.Debug|VisualGDB.Build.0 = Debug|Any CPU
+		{6900C1A3-1290-404D-8F24-8872D5A76E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6900C1A3-1290-404D-8F24-8872D5A76E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6900C1A3-1290-404D-8F24-8872D5A76E46}.Release|VisualGDB.ActiveCfg = Release|Any CPU
+		{6900C1A3-1290-404D-8F24-8872D5A76E46}.Release|VisualGDB.Build.0 = Release|Any CPU
+		{6C4E2751-65FC-4241-A0B2-D44447BEAC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4E2751-65FC-4241-A0B2-D44447BEAC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4E2751-65FC-4241-A0B2-D44447BEAC3F}.Debug|VisualGDB.ActiveCfg = Debug|Any CPU
+		{6C4E2751-65FC-4241-A0B2-D44447BEAC3F}.Debug|VisualGDB.Build.0 = Debug|Any CPU
+		{6C4E2751-65FC-4241-A0B2-D44447BEAC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4E2751-65FC-4241-A0B2-D44447BEAC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4E2751-65FC-4241-A0B2-D44447BEAC3F}.Release|VisualGDB.ActiveCfg = Release|Any CPU
+		{6C4E2751-65FC-4241-A0B2-D44447BEAC3F}.Release|VisualGDB.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

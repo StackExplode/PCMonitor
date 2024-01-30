@@ -9,7 +9,10 @@ All codes are under GPLv3 licence.
 * Another Linux dot net core app running in server as backend
 * PHP project with code Ignitor framework as front end
 * Dot net app as Windows system service to gather PC info and response query(via UDP/HID) and execute command
-* Other libs like open hardware monitor code and some shared codes like UDP server code etc.
+* Other libs like open hardware monitor code and some shared codes like UDP server and HID driver etc.
+* Test GUI in Windows for testing
 
 ## Everything is work in progress now!
+
+To be continued...
 
